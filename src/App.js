@@ -30,7 +30,7 @@ const generatePerson = () => {
     const state = faker.location.state();
     const city = faker.location.city();
     const streetAddress = faker.location.streetAddress();
-    const zipCode = faker.location.zipCode(state);
+    const zipCode = faker.location.zipCode();
 
     return {
         firstName,
